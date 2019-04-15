@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="welcomeSize">32sp</dimen>
+    <dimen name="spinnerLabelSize">18sp</dimen>
+
+</resources>

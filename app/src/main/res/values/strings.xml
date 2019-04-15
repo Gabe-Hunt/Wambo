@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Wambo</string>
+    <string name="welcomeString">Welcome to...</string>
+    <string name="launchButton">Launch!</string>
+    <string name="newSoundboardButton">Create new Soundboard</string>
+    <string name="spinnerLabel">Choose Soundboard:</string>
+    <string-array name="soundboards">
+        <item>Default</item>
+        <item>New Board</item>
+        <item>Board 3</item>
+    </string-array>
+</resources>
