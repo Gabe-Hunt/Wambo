@@ -12,27 +12,21 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     Spinner dropDownMenu;
-
+    Intent intent;
+    Button createNewSoundboardButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         dropDownMenu = findViewById(R.id.dropDownMenu);
-        Button newSoundboardButton = findViewById(R.id.createNewSoundboardButton);
-
-        newSoundboardButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                createNewSoundboard();
-            }
-        });
+        createNewSoundboard();
     }
 
     /**
      * onClick method for launch button
      * Takes user to desired soundboard
      */
-    public void chooseSoundboard() {
+    public void chooseSoundboard(View view) {
 
     }
 
@@ -41,8 +35,14 @@ public class MainActivity extends AppCompatActivity {
      * Directs user away from splash screen and makes new board
      */
     public void createNewSoundboard() {
-        Intent intent = new Intent(MainActivity.this, soundboardPage.class);
-        startActivity(intent);
+        createNewSoundboardButton =findViewById(R.id.createNewSoundboardButton);
+        createNewSoundboardButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                intent = new Intent(MainActivity.this, soundboardPage.class);
+                startActivity(intent);
+            }
+        });
     }
 
 
