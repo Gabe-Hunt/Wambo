@@ -7,12 +7,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="100dp">
+        android:layout_marginTop="75dp">
         <Button
             android:id="@+id/soundBoardButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Test"
+            android:text="Brekfast"
             android:textSize="@dimen/button_page_font"
             android:layout_weight="4"/>
         <Button
@@ -51,18 +51,21 @@
             android:textSize="@dimen/button_page_font"
             android:layout_weight="4"/>
         <Button
+            android:id="@+id/soundBoardButton6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Test"
             android:layout_weight="4"
             android:textSize="@dimen/button_page_font"/>
         <Button
+            android:id="@+id/soundBoardButton7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Test"
             android:layout_weight="4"
             android:textSize="@dimen/button_page_font"/>
         <Button
+            android:id="@+id/soundBoardButton8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Test"
@@ -71,11 +74,13 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/soundBoardButton9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="@dimen/button_top_margin">
         <Button
+            android:id="@+id/soundBoardButton10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Test"
