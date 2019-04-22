@@ -49,7 +49,17 @@ public class soundboardPage extends AppCompatActivity {
         int[] buttonID = {R.id.soundBoardButton1, R.id.soundBoardButton2, R.id.soundBoardButton3 ,R.id.soundBoardButton4, R.id.soundBoardButton5, R.id.soundBoardButton6, R.id.soundBoardButton7, R.id.soundBoardButton8, R.id.soundBoardButton9, R.id.soundBoardButton10 };
 
 
+        for(int i = 0; i < 10; i++) {
+            Button button = findViewById(buttonID[i]);
+            buttonList.add(button);
+            addSound(button);
 
+        }
+
+
+        Button button = new Button(this);
+        button.setId(R.id.soundBoardButton1);
+        button.setText("testy");
 
         Button brekfastButton = findViewById(R.id.soundBoardButton1);
         brekfastButton.setOnClickListener(new View.OnClickListener() {
@@ -65,7 +75,7 @@ public class soundboardPage extends AppCompatActivity {
         return new Intent(context, soundboardPage.class);
     }
 
-    public void addSound(int buttonID) {
+    public void addSound(Button button) {
 
     }
 
