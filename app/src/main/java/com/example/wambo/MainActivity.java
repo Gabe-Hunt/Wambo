@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         createNewSoundboardButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(MainActivity.this, soundboardPage.class);
+                intent = soundboardPage.createIntent(MainActivity.this);
                 startActivity(intent);
             }
         });
