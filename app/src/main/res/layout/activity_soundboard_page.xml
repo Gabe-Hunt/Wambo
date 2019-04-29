@@ -14,28 +14,34 @@
             android:layout_height="wrap_content"
             android:text="Brekfast"
             android:textSize="@dimen/button_page_font"
-            android:layout_weight="4"/>
+            android:layout_weight="4"
+            android:onClick="playSound"
+            android:longClickable="true"
+            />
         <Button
             android:id="@+id/soundBoardButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Test"
+            android:text="Bruh"
             android:layout_weight="4"
-            android:textSize="@dimen/button_page_font"/>
+            android:textSize="@dimen/button_page_font"
+            android:onClick="playSound"/>
         <Button
             android:id="@+id/soundBoardButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Test"
+            android:text="chickens"
             android:layout_weight="4"
-            android:textSize="@dimen/button_page_font"/>
+            android:textSize="@dimen/button_page_font"
+            android:onClick="playSound"/>
         <Button
             android:id="@+id/soundBoardButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Test"
+            android:text="fine"
             android:layout_weight="4"
-            android:textSize="@dimen/button_page_font"/>
+            android:textSize="@dimen/button_page_font"
+            android:onClick="playSound"/>
     </LinearLayout>
 
     <LinearLayout
@@ -47,63 +53,73 @@
             android:id="@+id/soundBoardButton5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Test"
+            android:text="raw"
             android:textSize="@dimen/button_page_font"
-            android:layout_weight="4"/>
+            android:layout_weight="4"
+            android:onClick="playSound"/>
         <Button
             android:id="@+id/soundBoardButton6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Test"
+            android:text="run"
             android:layout_weight="4"
-            android:textSize="@dimen/button_page_font"/>
+            android:textSize="@dimen/button_page_font"
+            android:onClick="playSound"/>
         <Button
             android:id="@+id/soundBoardButton7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Test"
+            android:text="21"
             android:layout_weight="4"
-            android:textSize="@dimen/button_page_font"/>
+            android:textSize="@dimen/button_page_font"
+            android:onClick="playSound"/>
         <Button
             android:id="@+id/soundBoardButton8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Test"
+            android:text="vodka"
             android:layout_weight="4"
-            android:textSize="@dimen/button_page_font"/>
+            android:textSize="@dimen/button_page_font"
+            android:onClick="playSound"/>
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/soundBoardButton9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="@dimen/button_top_margin">
+        <Button
+            android:id="@+id/soundBoardButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wam"
+            android:textSize="@dimen/button_page_font"
+            android:layout_weight="4"
+            android:onClick="playSound"/>
         <Button
             android:id="@+id/soundBoardButton10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Test"
+            android:text="wednesday"
+            android:layout_weight="4"
             android:textSize="@dimen/button_page_font"
-            android:layout_weight="4"/>
+            android:onClick="playSound"/>
         <Button
+            android:id="@+id/soundBoardButton11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Test"
             android:layout_weight="4"
-            android:textSize="@dimen/button_page_font"/>
+            android:textSize="@dimen/button_page_font"
+            android:onClick="playSound"/>
         <Button
+            android:id="@+id/soundBoardButton12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Test"
             android:layout_weight="4"
-            android:textSize="@dimen/button_page_font"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Test"
-            android:layout_weight="4"
-            android:textSize="@dimen/button_page_font"/>
+            android:textSize="@dimen/button_page_font"
+            android:onClick="playSound"/>
     </LinearLayout>
 
     <LinearLayout
@@ -112,24 +128,28 @@
         android:orientation="horizontal"
         android:layout_marginTop="@dimen/button_top_margin">
         <Button
+            android:id="@+id/soundBoardButton13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Test"
             android:textSize="@dimen/button_page_font"
             android:layout_weight="4"/>
         <Button
+            android:id="@+id/soundBoardButton14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Test"
             android:layout_weight="4"
             android:textSize="@dimen/button_page_font"/>
         <Button
+            android:id="@+id/soundBoardButton15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Test"
             android:layout_weight="4"
             android:textSize="@dimen/button_page_font"/>
         <Button
+            android:id="@+id/soundBoardButton16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Test"
