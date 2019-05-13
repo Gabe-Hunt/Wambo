@@ -5,8 +5,10 @@
     <string name="newSoundboardButton">Create new Soundboard</string>
     <string name="spinnerLabel">Choose Soundboard:</string>
     <string-array name="soundboards">
-        <item>Default</item>
-        <item>New Board</item>
-        <item>Board 3</item>
+        <item>Default Board</item>
+        <item>Custom Board 1</item>
+        <item>Custom Board 2</item>
+        <item>Custom Board 3</item>
+        <item>Custom Board 4</item>
     </string-array>
 </resources>
